@@ -18,6 +18,14 @@ body {
     border-radius: 25px;
 }
 
+.f-right {
+    float: right;
+}
+
+.f-left {
+    float: left;
+}
+
 .header img {
     width: 90px;
     height: auto;
@@ -27,11 +35,27 @@ body {
     margin-bottom: 0px;
     font-size: 60px;
     margin-left: 20px;
+    color: #7B3C99;
 }
 
 hr {
     width: 60%;
     margin-left: 0;
+}
+
+.date {
+    color: darkgrey;
+}
+
+.subtitle {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.item {
+    background-color: #FCEDBB;
+    padding: 35px;
+    margin: 20px 0px;
 }
 
 h3 {
@@ -76,7 +100,7 @@ h3 {
     display: flex;
 }
 
-.news-feed {
+.col {
     width: 60%;
     padding-right: 100px;
 }
