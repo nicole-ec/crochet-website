@@ -101,8 +101,13 @@ h3 {
     list-style: none;
 }
 
-.menu a {
+a {
     text-decoration: none;
+    color: #9c1ff2;
+}
+
+a:visited {
+    color: #784c00
 }
 
 .container {
