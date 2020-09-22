@@ -1,9 +1,16 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
 body {
-    margin: 0px;
     font-size: 20px;
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
+    height: 100%
 }
 
 .header {
@@ -127,7 +134,7 @@ h3 {
 }
 
 .footer {
-    margin-top: 100px;
+    margin-top: 147px;
     background-color: #7B3C99;
     padding: 40px 40px 30px;
     margin-bottom: 0px;
@@ -135,6 +142,7 @@ h3 {
     position: relative;
     bottom: 0;
     width: 100%;
+    color: #FCEDBB;
 }
 
 table, th, td {
@@ -160,7 +168,6 @@ img {
 }
 
 .merch-text {
-    padding-left: 20px;
     text-align: left;
 }
 
@@ -168,14 +175,60 @@ img {
     justify-content: space-between;
 }
 
-.w-86 {
-    width: 86%;
+.w-95p {
+    width: 95%;
+}
+
+.w-405 {
+    width: 405px;
+}
+
+.w-565 {
+    width: 565px;
+}
+
+.w-407 {
+    width: 407px;
+}
+
+.w-125 {
+    width: 125px;
+}
+
+.w-450 {
+    width: 450px;
+}
+
+.w-480 {
+    width: 480px;
+}
+
+.w-390 {
+    width: 390px;
+}
+
+.w-370 {
+    width: 370px;
 }
 
 .w-fc {
     width: fit-content;
+    width: max-content;
 }
 
 .fw-bold {
     font-weight: bold;
+}
+
+.chart {
+    padding: 60px 126px;
+}
+
+.menu-img {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.mt-30 {
+    margin-top: 30px;
 }
