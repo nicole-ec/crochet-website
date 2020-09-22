@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(to bottom, #9999ff 0%, #ccccff 100%);
+    padding: 215px 75px 0px;
+}
+
+.header img {
+    width: 90px;
+    height: auto;
+}
+
+.header h1 {
+    margin-bottom: 0px;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
