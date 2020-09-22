@@ -2,6 +2,7 @@ body {
     margin: 0px;
     font-size: 20px;
     overflow-y: scroll;
+    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,7 +56,10 @@ hr {
 .item {
     background-color: #FCEDBB;
     padding: 35px;
-    margin: 20px 0px;
+}
+
+.row {
+    margin: 30px 0px;
 }
 
 h3 {
@@ -100,6 +104,14 @@ h3 {
     display: flex;
 }
 
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
 .col {
     width: 60%;
     padding-right: 100px;
@@ -110,9 +122,60 @@ h3 {
     height: auto;
 }
 
+.a-center {
+    text-align: center;
+}
+
 .footer {
     margin-top: 100px;
     background-color: #7B3C99;
     padding: 40px 40px 30px;
+    margin-bottom: 0px;
     text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
+
+.merch {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.merch-text {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.w-86 {
+    width: 86%;
+}
+
+.w-fc {
+    width: fit-content;
+}
+
+.fw-bold {
+    font-weight: bold;
 }
