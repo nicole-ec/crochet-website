@@ -1,12 +1,14 @@
 body {
     margin: 0px;
+    font-size: 20px;
+    overflow-y: scroll;
 }
 
 .header {
     display: flex;
     align-items: flex-end;
     background: linear-gradient(to bottom, #9999ff 0%, #ccccff 100%);
-    padding: 215px 75px 0px;
+    padding: 215px 90px 0px;
 }
 
 .header img {
@@ -20,3 +22,47 @@ body {
     margin-left: 20px;
 }
 
+hr {
+    width: 60%;
+    margin-left: 0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 95px;
+    margin-top: 90px;
+    display: flex;
+}
+
+.news-feed {
+    width: 60%;
+}
+
+#comeback-gif {
+    width: 200px;
+    height: auto;
+}
+
+.footer {
+    margin-top: auto;
+}
