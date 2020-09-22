@@ -2,13 +2,20 @@ body {
     margin: 0px;
     font-size: 20px;
     overflow-y: scroll;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
     display: flex;
     align-items: flex-end;
-    background: linear-gradient(to bottom, #9999ff 0%, #ccccff 100%);
-    padding: 215px 90px 0px;
+    background-color: #B2A6FF;
+    background-image: url('../pics/back-pattern.png');
+    padding: 215px 180px 0px;
+    font-family: 'Caveat', cursive;
+}
+
+.r-corner {
+    border-radius: 25px;
 }
 
 .header img {
@@ -18,7 +25,7 @@ body {
 
 .header h1 {
     margin-bottom: 0px;
-    font-size: 45px;
+    font-size: 60px;
     margin-left: 20px;
 }
 
@@ -36,8 +43,23 @@ h3 {
 }
 
 .menu {
-    position: sticky;
-    top: 0;
+    width: 20%;
+    margin-right: 100px;
+    text-align: right;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.title {
+    font-family: 'Caveat', cursive;
+    font-size: 40px !important;
+}
+
+.menu nav {
+    background-color: #B2A6FF;
+    background-image: url('../pics/back-pattern.png');
+    padding: 20px 50px 30px;
+
 }
 
 .menu ul {
@@ -49,13 +71,14 @@ h3 {
 }
 
 .container {
-    margin-left: 95px;
+    margin-left: 200px;
     margin-top: 90px;
     display: flex;
 }
 
 .news-feed {
     width: 60%;
+    padding-right: 100px;
 }
 
 #comeback-gif {
@@ -64,5 +87,8 @@ h3 {
 }
 
 .footer {
-    margin-top: auto;
+    margin-top: 100px;
+    background-color: #7B3C99;
+    padding: 40px 40px 30px;
+    text-align: center;
 }
