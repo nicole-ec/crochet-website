@@ -188,34 +188,8 @@ img {
     width: 90%;
 }
 
-
-
-.w-405 {
-    width: 405px;
-}
-
-.w-565 {
-    width: 565px;
-}
-
-.w-407 {
-    width: 407px;
-}
-
-.w-450 {
-    width: 450px;
-}
-
-.w-480 {
-    width: 480px;
-}
-
-.w-390 {
-    width: 390px;
-}
-
-.w-370 {
-    width: 370px;
+.product-container {
+    flex-direction: column;
 }
 
 .w-fc {
@@ -228,7 +202,7 @@ img {
 }
 
 .chart {
-    padding: 60px 75px;
+    padding: 45px 45px;
 }
 
 .menu-img {
