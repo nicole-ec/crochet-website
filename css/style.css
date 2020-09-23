@@ -170,17 +170,25 @@ img {
     justify-content: center;
 }
 
+.merch-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .merch-text {
     text-align: left;
 }
 
-.jc-sb {
-    justify-content: space-between;
+.jc-se {
+    justify-content: space-evenly;
 }
 
-.w-95p {
-    width: 95%;
+.w-90p {
+    width: 90%;
 }
+
+
 
 .w-405 {
     width: 405px;
@@ -192,10 +200,6 @@ img {
 
 .w-407 {
     width: 407px;
-}
-
-.w-125 {
-    width: 125px;
 }
 
 .w-450 {
@@ -224,7 +228,7 @@ img {
 }
 
 .chart {
-    padding: 60px 126px;
+    padding: 60px 75px;
 }
 
 .menu-img {
@@ -234,4 +238,8 @@ img {
 
 .contact-icons {
     width: 10%;
+}
+
+.grumpy-cat {
+    width: 125px;
 }
